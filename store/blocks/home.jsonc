@@ -82,9 +82,6 @@
   },
 
   "shelf": {
-    "blocks": ["shelf.jsonc"],
-  },
-  "shelf.jsonc": {
     "blocks": ["shelf"],
     "props": {
       "category": 1,
@@ -98,6 +95,7 @@
         "arrows": true,
         "titleText": "Top sellers"
       }
+    }
   },
   "product-summary.shelf": {
     "children": [
