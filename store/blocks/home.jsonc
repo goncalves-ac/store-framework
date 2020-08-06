@@ -82,7 +82,10 @@
   },
 
   "shelf": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": ["shelf.jsonc"],
+  },
+  "shelf.jsonc": {
+    "blocks": ["shelf"],
     "props": {
       "category": 1,
       "orderBy": "OrderByTopSaleDESC",
@@ -95,7 +98,6 @@
         "arrows": true,
         "titleText": "Top sellers"
       }
-    }
   },
   "product-summary.shelf": {
     "children": [
