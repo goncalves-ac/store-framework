@@ -67,26 +67,10 @@
         }
     },
 
-    "rich-text#1":{
-        "props": {
-            "text": "Major Appliances",
-            "textPosition": "CENTER",
-            "font": "t-heading-3"
-        }
-    },
-
     "tab-list.item#home2": {
         "children": ["rich-text#2"],
         "props": {
             "tabId": "electronics"
-        }
-    },
-
-    "rich-text#2":{
-        "props": {
-            "text": "Electronics",
-            "textPosition": "CENTER",
-            "font": "t-heading-3"
         }
     },
 
@@ -113,7 +97,7 @@
 
     "rich-text#home1": {
         "props": {
-            "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
+            "text": "Major Appliances",
             "textPosition": "CENTER",
             "font": "t-heading-3"
         }
@@ -121,7 +105,7 @@
     
     "rich-text#home2": {
         "props": {
-            "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
+            "text": "Eletronics",
             "textPosition": "CENTER",
             "font": "t-heading-3"
         }
