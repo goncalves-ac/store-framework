@@ -1,4 +1,12 @@
 {
+    "menu": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#major",
+            "vtex.menu@2.x:submenu#small",
+            "vtex.menu@2.x:submenu#electronics"
+        ]
+    },
+
     "vtex.menu@2.x:menu#categories": {
         "children": [
             "menu-item#major-appliances",
