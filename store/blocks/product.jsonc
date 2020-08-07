@@ -68,7 +68,7 @@
 
   "sku-selector": {
     "props": {
-      "hideImpossibleCombinations": true,
+      "hideImpossibleCombinations": false,
       "showVariationsErrorMessage": true,
       "displayMode": "image"
     }
