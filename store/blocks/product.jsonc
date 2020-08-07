@@ -19,7 +19,7 @@
 
   "flex-layout.col#left": {
     "children": [
-      "stack-layout"
+      "stack-layout#brand"
     ]
   },
 
@@ -68,7 +68,8 @@
 
   "sku-selector": {
     "props": {
-      "hideImpossibleCombinations": false,
+      "initialSelection": "empty",
+      "hideImpossibleCombinations": true,
       "showVariationsErrorMessage": true,
       "displayMode": "image"
     }
