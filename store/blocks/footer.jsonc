@@ -37,7 +37,7 @@
     },
 
     "flex-layout.col#footer-right-desktop":{
-        "blocks":["social-networks"]
+        "children":["social-networks"]
     },
 
     "social-networks":{
