@@ -40,11 +40,13 @@
         "blocks":["social-networks"]
     },
 
-    "props": {
-        "socialNetworks": [
-            { "url": "https://facebook.com/foo", "name": "Facebook" },
-            { "url": "https://twitter.com/foo", "name": "Twitter" }
-        ],
-        "showInColor": true
+    "social-networks":{
+        "props": {
+            "socialNetworks": [
+                { "url": "https://facebook.com/foo", "name": "Facebook" },
+                { "url": "https://twitter.com/foo", "name": "Twitter" }
+            ],
+            "showInColor": true
+        }
     }
 }
